@@ -2,6 +2,8 @@ import streamlit as st
 import plotly.express as px
 import pandas as pd
 
+df=pd.read_excel("Sample - Superstore.xls")
+df
 
 st.title(" :bar_chart: Sample SuperStore EDA")
 df = pd.read_excel("Sample - Superstore.xls")
